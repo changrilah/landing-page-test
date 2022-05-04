@@ -1,0 +1,48 @@
+body{
+    background-image: url('https://wallpapercave.com/wp/wp5813847.jpg');
+    background-size: cover;
+    font-family: 'Akshar', sans-serif;
+    font-family: 'Radio Canada', sans-serif;
+}
+#sec1{
+    display: flex;
+    justify-content: center;
+}
+#d1{
+    display: flex;
+    align-content: center;
+    text-align: center;
+    color: whitesmoke;
+    flex-direction: column;
+    transition: 1s;
+}
+#d1:hover{
+    
+    transform: scale(1.2);
+    opacity: 0.8;
+}
+#sec2{
+    display: flex;
+    justify-content: center;
+}
+#d2{
+    display: flex;
+   justify-content: space-around;
+
+   }
+   #b1{
+       background: rgba(85, 14, 82, 0.7);
+       height: 50px;
+       width: 200px;
+       transition: 2s;
+   }
+#b1:hover{
+    
+    
+    transform: scale(1.7);
+    background: rgba(85, 14, 82, 0.2);
+    color: rgba(255, 255, 255, 1);
+}
+#break{
+    height: 15rem;
+}
