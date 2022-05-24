@@ -1,0 +1,21 @@
+body{
+    font-family: 'Bebas Neue', cursive;
+}
+
+#d1{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.cartas{
+    transition: 0.5s;
+}
+.cartas:hover{
+    transform: scale(1.1);
+}
+.virado{
+    transition: 0.5s;
+    transform: rotateY(180deg);
+    height: 267px;
+    width: 189px;
+}
